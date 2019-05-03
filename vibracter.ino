@@ -125,7 +125,7 @@ void setup()
   Serial.println(system_get_time());
 
   //WiFi.begin("BadgerHome", "This is Badger Home");
-  WiFi.begin("Skybadger Away", "This is Skybadger Away");
+  WiFi.begin("Skybadger Away", "");
 
   Serial.print("Connecting");
   while (WiFi.status() != WL_CONNECTED)
